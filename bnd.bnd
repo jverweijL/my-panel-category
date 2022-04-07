@@ -2,3 +2,5 @@ Bundle-Name: my-panel-category
 Bundle-SymbolicName: my.panel.category
 Bundle-Version: 1.0.0
 Export-Package: my.panel.category.constants
+-consumer-policy: ${replacestring;${range;[==,==]};.*,(.*)];$1}
+-provider-policy: ${replacestring;${range;[==,==]};.*,(.*)];$1}
